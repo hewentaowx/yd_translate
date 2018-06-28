@@ -1,0 +1,30 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": "airbnb",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		},
+		"sourceType": "module"
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"no-mixed-spaces-and-tabs": [2, false],
+		"no-var": 2,
+		"no-console": 0,
+		"no-unused-vars": 1,
+		"no-undef": 2,
+		"indent": [2, "tab"],
+		"linebreak-style": [2, "unix"],
+		"quotes": [2, "single"],
+		"semi": [2, "always"]
+  }
+}

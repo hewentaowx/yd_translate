@@ -1,0 +1,33 @@
+{
+  "name": "yd_translate",
+  "version": "1.0.0",
+  "description": "😊 Nodejs关于有道翻译的命令行终端工具 💻",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hewentaowx/yd_translate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "ts": "./src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hewentaowx/yd_translate.git/issues"
+  },
+  "homepage": "https://github.com/hewentaowx/yd_translate.git#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "crypto": "^1.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "md5": "^2.2.1",
+    "ora": "^2.1.0",
+    "querystring": "^0.2.0",
+    "request": "^2.87.0",
+    "urlencode": "^1.1.0"
+  }
+}

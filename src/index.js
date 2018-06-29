@@ -53,10 +53,10 @@ request({
     console.error('好像出了一点点小意外￣□￣｜|...' + err.message);
   } else {
     if (body.basic) {
-      console.log('\n', ...body.basic.explains);
+      console.log('\n', (body.basic.explains).join('; '));
       spinner.stop();
     } else {
-      console.log('\n', ...body.translation);
+      console.log('\n', (body.translation).join('; '));
       spinner.stop();
     }
   }

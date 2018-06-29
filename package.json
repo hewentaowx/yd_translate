@@ -4,8 +4,7 @@
   "description": "😊 Nodejs关于有道翻译的命令行终端工具 💻",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

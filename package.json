@@ -22,6 +22,7 @@
   "dependencies": {
     "commander": "^2.15.1",
     "crypto": "^1.0.1",
+    "dotenv": "^6.0.0",
     "eslint-config-airbnb": "^17.0.0",
     "md5": "^2.2.1",
     "ora": "^2.1.0",

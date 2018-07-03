@@ -1,6 +1,6 @@
 {
   "name": "yd_translate",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "😊 Nodejs关于有道翻译的命令行终端工具 💻",
   "main": "index.js",
   "scripts": {

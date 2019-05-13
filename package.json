@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/hewentaowx/yd_translate.git"
   },
-  "author": "",
+  "author": "SonderzzZ<hewentaowx@gmail.com>",
   "license": "MIT",
   "bin": {
     "ts": "./src/index.js"

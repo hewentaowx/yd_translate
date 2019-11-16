@@ -8,7 +8,7 @@ const ora = require('ora');
 const config = require('./config');
 
 program
-  .version('0.2.6', '-v, --version, --VERSION')
+  .version('0.2.7', '-v, --version, --VERSION')
 	.description('💻 您好，欢迎使用SonderzzZ的有道翻译脚本，目前只支持中英文互译，谢谢您的支持~🍺')
 	.parse(process.argv);
 

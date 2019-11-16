@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/hewentaowx/yd_translate.git#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "commander": "^2.15.1",
     "crypto": "^1.0.1",
     "dotenv": "^6.0.0",

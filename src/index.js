@@ -5,6 +5,7 @@ const request = require('request');
 const qs = require('querystring');
 const crypto = require('crypto');
 const ora = require('ora');
+const colors = require('colors');
 const config = require('./config');
 
 program

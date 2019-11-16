@@ -1,6 +1,6 @@
 {
   "name": "yd_translate",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "😊 Nodejs关于有道翻译的命令行终端工具 💻",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/hewentaowx/yd_translate.git#readme",
   "dependencies": {
-    "colors": "^1.4.0",
     "commander": "^2.15.1",
     "crypto": "^1.0.1",
     "dotenv": "^6.0.0",

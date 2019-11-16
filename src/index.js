@@ -5,22 +5,18 @@ const request = require('request');
 const qs = require('querystring');
 const crypto = require('crypto');
 const ora = require('ora');
-const colors = require('colors');
 const config = require('./config');
 
 program
-	.version('0.2.3')
-	.description('💻 你好，欢迎使用SonderzzZ的有道翻译脚本 🍺')
+  .version('0.2.6', '-v, --version, --VERSION')
+	.description('💻 您好，欢迎使用SonderzzZ的有道翻译脚本，目前只支持中英文互译，谢谢您的支持~🍺')
 	.parse(process.argv);
 
 const spinner = ora('正在查询中,请稍候...').start();
 spinner.color = 'green';
 
-function make_red(txt) {
-  return colors.red(txt);
-}
 if (!process.argv.slice(2).length) {
-  program.outputHelp(make_red('请输入需要翻译的内容~~'));
+  program.help();
 }
 
 const word = process.argv.slice(2).join(' ');

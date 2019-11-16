@@ -8,12 +8,19 @@ const ora = require('ora');
 const config = require('./config');
 
 program
-	.version('0.0.1')
+	.version('0.2.2')
 	.description('💻 你好，欢迎使用SonderzzZ的有道翻译脚本 🍺')
 	.parse(process.argv);
 
 const spinner = ora('正在查询中,请稍候...').start();
 spinner.color = 'green';
+
+function make_red(txt) {
+  return colors.red(txt);
+}
+if (!process.argv.slice(2).length) {
+  program.outputHelp(make_red('请输入需要翻译的内容~~'));
+}
 
 const word = process.argv.slice(2).join(' ');
 

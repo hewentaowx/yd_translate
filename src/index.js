@@ -12,12 +12,12 @@ program
 	.description('💻 您好，欢迎使用SonderzzZ的有道翻译脚本，目前只支持中英文互译，谢谢您的支持~🍺')
 	.parse(process.argv);
 
-const spinner = ora('正在查询中,请稍候...').start();
-spinner.color = 'green';
-
 if (!process.argv.slice(2).length) {
   program.help();
 }
+
+const spinner = ora('正在查询中,请稍候...').start();
+spinner.color = 'green';
 
 const word = process.argv.slice(2).join(' ');
 

@@ -53,7 +53,10 @@ request({
 	method: 'POST',
 	json: true,
 }, (err, res, body) => {
-	if (err && res.statusCode !== 200) {
+    if (body.errorCode == 202) {
+		console.log('\n', "秘钥换了哎大哥，您在翻译书吗?一天跑了50块！");
+		spinner.stop();
+    } else if (err && res.statusCode !== 200) {
 		console.error(`好像出了一点点小意外￣□￣｜|...${err.message}`);
 	} else if (body.basic) {
 		console.log('\n', (body.basic.explains).join('; '));

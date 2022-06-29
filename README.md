@@ -1,5 +1,7 @@
 # 基于Nodejs命令行终端的有道翻译脚本
 
+# 该项目本意只是为了方便大家命令行翻译，运行两三年没有问题，但是最近遇到恶意的行为导致有道账号内充值的钱都刷完了，目前项目已弃用
+
 ![](https://img.shields.io/badge/node-%3Ev8.0.0-blue.svg)
 ![](https://img.shields.io/badge/npm-v6.1.0-blue.svg)
 ![](https://img.shields.io/badge/test-invalid-lightgrey.svg)
